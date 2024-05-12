@@ -2,6 +2,13 @@
 
 This project is for simulating DNS attacks.
 
+## Prerequests
+
+In order to use those codes, some python packages should be installed.
+
+`pip install dnslib scapy`
+
+
 ## Too Many Requests
 
 We try to request DNS resolve with already registered domains/records.
