@@ -6,11 +6,11 @@ from dnslib import DNSRecord, QTYPE, CLASS, RD
 
 # Functions
 def random_name():
-    return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=3)) + 'domain.com' # change domain.com into already registered domain name.
+    return ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=3)) + 'test.com' # change domain.com into already registered domain name.
 
 # Flood Settings
 flood_duration = 1  # Duration in seconds
-flood_rate = 70  # Queries per second
+flood_rate = 200  # Queries per second
 
 # DNS Server settings
 dns_server = '127.0.0.1'

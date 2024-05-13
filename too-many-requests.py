@@ -48,7 +48,7 @@ while True:
             
             # Parse response data
             dns_response = DNSRecord.parse(data)
-            print(f'received data {dns_response}')
+            print(dns_response)
 
             # Extract answer from the DNS response
             for answer in dns_response.rr:
